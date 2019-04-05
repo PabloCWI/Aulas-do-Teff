@@ -2,13 +2,13 @@ import React, { Component } from "react";
 // import styled from "styled-components";
 // import TicTacToeComponent from "./components/tic-tac-toe/tic-tac-toe.component";
 // import Counter from "./components/counter/counter.component";
-import VoiceCard from "./components/voice-cards.component";
+import ContainerComponent from "./components/container/container.component"
 
 class App extends Component {
   render() {
     return (
       <div>
-        <VoiceCard/>
+        <ContainerComponent/>
       </div>
     );
   }
